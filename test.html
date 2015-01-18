@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+            // Using YQL and JSONP
+                $.ajax({
+                    url: "http://api.account.local/user/getGenderInformations/1",
+                    // The name of the callback parameter, as specified by the YQL service
+                    jsonp: "jsonp",
+                    // Tell jQuery we're expecting JSONP
+                    dataType: "jsonp",
+                    // Work with the response
+                    type : 'GET',
+                    success: function (response) {
+                        console.log(response); // server response
+                    }
+                });
+
+
+            });
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
