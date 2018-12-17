@@ -1,0 +1,14 @@
+<form id="login" class="form-signin" role="form" onsubmit="return false;">
+    <h2 trans-html="login" class="form-signin-heading">Anmelden</h2>
+    <div id="loginEmailGroup" class="form-group">
+        <p id="loginEmailError" class="control-label"></p>
+        <label trans-html="email-address" for="loginEmail" class="sr-only">Email-Adresse</label>
+        <input trans-placeholder="email-address" name="email" type="email" id="loginEmail" class="form-control" placeholder="Email-Adresse" required autofocus>
+    </div>
+    <div id="loginPasswordGroup" class="form-group">
+        <p id="loginPasswordError" class="control-label"></p>
+        <label trans-html="password" for="loginPassword" class="sr-only">Passwort</label>
+        <input type="password" trans-placeholder="password" name="password" id="loginPassword" class="form-control" placeholder="Passwort" required>
+    </div>
+    <button onclick="js.doLogin()" trans-html="login" class="btn btn-lg btn-primary btn-block" type="submit">Anmelden</button>
+</form>

@@ -1,0 +1,8 @@
+{
+    "no-email":"Keine Email Adresse!",
+    "no-password":"Kein Passwort!",
+    "wrong-email":"Falsche Email Adresse!",
+    "wrong-password":"Passwort ist falsch!",
+    "email-not-exists":"Email exestiert nicht!",
+    "account-not-verified":"Ihr Konto wurde noch nicht bestätigt!"
+}

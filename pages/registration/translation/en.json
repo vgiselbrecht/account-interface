@@ -1,0 +1,12 @@
+{
+    "registering":"Registering",
+    "email-address":"Email-Address",
+    "password":"Password",
+    "password2":"Retype Password",
+    "register":"Register",
+    "password-match":"Password does not match!",
+    "password-length":"Password length must be at least 8!",
+    "email-exists":"Email already exists!",
+    "password-exists":"You have no password!",
+    "email-wrong":"Email is not valid!"
+}

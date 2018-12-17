@@ -1,0 +1,19 @@
+<form id="register" class="form-signin text-center" role="form" onsubmit="return false;">
+    <h2 trans-html="registering" class="form-signin-heading">Registrieren</h2>
+    <div id="registerEmailGroup" class="form-group">
+        <p id="registerEmailError" class="control-label"></p>
+        <label trans-html="email-address" for="registerEmail" class="sr-only">Email-Adresse</label>
+        <input trans-placeholder="email-address" name="email" type="email" id="registerEmail" class="form-control" placeholder="Email-Adresse" required autofocus>
+    </div>
+    <div id="registerPasswordGroup" class="form-group">
+        <p id="registerPasswordError" class="control-label"></p>
+        <label trans-html="password" for="registerPassword" class="sr-only">Passwort</label>
+        <input type="password" trans-placeholder="password" name="password" id="registerPassword" class="form-control" placeholder="Passwort" required>
+    </div>
+    <div id="registerPassword2Group" class="form-group">
+        <p id="registerPassword2Error" class="control-label"></p>
+        <label trans-html="password2" for="registerPassword2" class="sr-only">Passwort wiederholen</label>
+        <input type="password" trans-placeholder="password2" name="password" id="registerPassword2" class="form-control" placeholder="Passwort wiederholen" required>
+    </div>
+    <button onclick="js.register()" trans-html="register" class="btn btn-lg btn-primary btn-block" type="submit">Registrieren</button>
+</form>

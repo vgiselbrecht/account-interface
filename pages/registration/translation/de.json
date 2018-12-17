@@ -1,0 +1,12 @@
+{
+    "registering":"Registrieren",
+    "email-address":"Email-Adresse",
+    "password":"Passwort",
+    "password2":"Password Wiederholen",
+    "register":"Registrieren",
+    "password-match":"Passwort stimmt nicht überein!",
+    "password-length":"Passwortlänge muss mindestens 8 sein!",
+    "email-exists":"Email existiert bereits!",
+    "password-exists":"Sie haben kein Passwort angegeben!",
+    "email-wrong":"Email ist nicht gültig!"
+}

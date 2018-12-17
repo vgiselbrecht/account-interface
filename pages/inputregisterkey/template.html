@@ -1,0 +1,14 @@
+<form id="inputregisterkey" class="form-signin" role="form" onsubmit="return false;">
+    <h2 trans-html="inputregisterkey" class="form-signin-heading">Registrierungscode eingeben</h2>
+    <div id="inputCodeGroup" class="form-group">
+        <p id="inputCodeError" class="control-label"></p>
+        <label trans-html="code" for="registercode" class="sr-only">Email-Adresse</label>
+        <input trans-placeholder="code" name="code" type="text" id="registercode" class="form-control" placeholder="Code" required autofocus>
+    </div>
+    <div id="inputUserIdGroup" class="form-group" style="display:none">
+        <p id="inputUserIdError" class="control-label"></p>
+        <label trans-html="userid" for="userid" class="sr-only">User Id</label>
+        <input trans-placeholder="userid" name="code" type="text" id="userid" class="form-control" placeholder="User Id" required autofocus>
+    </div>
+    <button onclick="js.inputCode()" trans-html="send" class="btn btn-lg btn-primary btn-block" type="submit">Absenden</button>
+</form>
